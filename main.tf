@@ -2,7 +2,7 @@ resource "ad_group" "this" {
   name             = var.name
   sam_account_name = var.name
   scope            = var.scope
-  category         = var.security
+  category         = var.category
   container        = var.container
 }
 
